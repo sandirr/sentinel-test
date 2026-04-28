@@ -350,16 +350,16 @@ func main() {
 
 | Tool               | Rating |
 | ------------------ | ------ |
-| Git                | 5      |
+| Git                | 4      |
 | Redis              | 4      |
-| VSCode / JetBrains | 5      |
+| VSCode / JetBrains | 4      |
 | Linux              | 4      |
-| AWS — EC2          | 5      |
+| AWS — EC2          | 4      |
 | AWS — Lambda       | 3      |
 | AWS — RDS          | 4      |
 | AWS — CloudWatch   | 3      |
-| AWS — S3           | 5      |
-| Unit Testing       | 5      |
-| Kanban boards      | 5      |
+| AWS — S3           | 4      |
+| Unit Testing       | 4      |
+| Kanban boards      | 4      |
 
 
