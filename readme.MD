@@ -130,6 +130,11 @@ main();
 
 ---
 
+### Live in Railway (not AWS):
+`sentinel-test-production.up.railway.app`
+
+---
+
 ### Run locally (development)
 
 ```bash
@@ -148,7 +153,7 @@ Open `http://localhost:5173` — both chat windows connect to the server on port
 
 ---
 
-### Run with Docker (production / AWS)
+### Run with Docker
 
 ```bash
 cd chat-app
@@ -156,10 +161,6 @@ docker compose up --build
 ```
 
 Open `http://localhost:3000`
-
----
-
-Live in Railway (not AWS): sentinel-test-production.up.railway.app
 
 
 ## 4. Vue.js
