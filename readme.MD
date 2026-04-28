@@ -120,18 +120,11 @@ main();
 
 **Stack:** Vue 3 + TypeScript (Vite) · Node.js WebSocket server (`ws`) · Docker
 
-**Features:**
-
-- Two chat windows side by side (Alice & Bob), each with its own WebSocket connection
-- Messages broadcast to all connected clients — works across multiple browser tabs/windows too
-- Slide-up animation on new messages using Vue `<TransitionGroup>`
-- Auto-reconnects if the server drops
-- Single Docker image serves both the WebSocket server and built Vue app
-
 ---
 
 ### Live in Railway (not AWS):
-`sentinel-test-production.up.railway.app`
+
+Open `sentinel-test-production.up.railway.app`
 
 ---
 
@@ -161,7 +154,6 @@ docker compose up --build
 ```
 
 Open `http://localhost:3000`
-
 
 ## 4. Vue.js
 
@@ -261,7 +253,6 @@ onUnmounted(() => {
 
 Vue 3's `watchEffect` and `watch` auto-cleanup when the component unmounts, so those are safe by default.
 
-
 ### 4. State management
 
 I have used **Pinia** as the primary state management solution in Vue 3 projects. It is the officially recommended replacement for Vuex and integrates natively with the Composition API.
@@ -356,17 +347,19 @@ func main() {
 
 ## 8. Tools (Rate yourself 1 to 5)
 
-| Tool | Rating |
-|---|---|
-| Git | 5 |
-| Redis | 4 |
-| VSCode / JetBrains | 5 |
-| Linux | 4 |
-| AWS — EC2 | 5 |
-| AWS — Lambda | 3 |
-| AWS — RDS | 4 |
-| AWS — CloudWatch | 3 |
-| AWS — S3 | 5 |
-| Unit Testing | 5 |
-| Kanban boards | 5 |
+
+| Tool               | Rating |
+| ------------------ | ------ |
+| Git                | 5      |
+| Redis              | 4      |
+| VSCode / JetBrains | 5      |
+| Linux              | 4      |
+| AWS — EC2          | 5      |
+| AWS — Lambda       | 3      |
+| AWS — RDS          | 4      |
+| AWS — CloudWatch   | 3      |
+| AWS — S3           | 5      |
+| Unit Testing       | 5      |
+| Kanban boards      | 5      |
+
 
