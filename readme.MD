@@ -159,7 +159,7 @@ Open `http://localhost:3000`
 
 ---
 
-Deployed in AWS: 
+Live in Railway (not AWS): sentinel-test-production.up.railway.app
 
 
 ## 4. Vue.js
@@ -260,7 +260,6 @@ onUnmounted(() => {
 
 Vue 3's `watchEffect` and `watch` auto-cleanup when the component unmounts, so those are safe by default.
 
----
 
 ### 4. State management
 
