@@ -124,7 +124,7 @@ main();
 
 ### Live in Railway (not AWS):
 
-Open `sentinel-test-production.up.railway.app`
+Open [Live Implementation](sentinel-test-production.up.railway.app)
 
 ---
 
